@@ -3,7 +3,8 @@
 <br>
 
 ## Project Overview
-VITS 기반 음성 변환 프레임워크 RVC(Retrieval-based-Voice-Conversion-WebUI)를 활용하여 듣기 좋은 AI 커버곡을 생성한다.<br>
+**VITS 기반 음성 변환 프레임워크 RVC를 활용하여 듣기 좋은 AI 커버곡을 생성한다.** <br>
+
 
 음성 변환(Voice Conversion)이란, Source Speaker의 음성을 Target Speaker의 음성으로 변환하는 것이다.<br>
 
@@ -22,12 +23,11 @@ VITS 기반 음성 변환 프레임워크 RVC(Retrieval-based-Voice-Conversion-W
 <br>
 
 ## Model Selection
-음성합성(Text-to-Speech)분야에서 SOTA급 성능을 보이는<br>
-[VITS](https://github.com/jaywalnut310/vits) (Variational Inference with adversarial learning for end-to-end Text-to-Speech) 기반 [RVC](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI) 프레임워크를 사용하였다.
+음성합성(Text-to-Speech)분야에서 SOTA급 성능을 보이는 [VITS](https://github.com/jaywalnut310/vits) (Variational Inference with adversarial learning for end-to-end Text-to-Speech) 기반 [RVC](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI) (Retrieval-based-Voice-Conversion-WebUI) 프레임워크를 사용하였다.
 
 [![Open In Colab](https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&color=525252)](https://colab.research.google.com/drive/1iWOLYE9znqT6XE5Rw2iETE19ZlqpziLx?usp=sharing)
 
-VITS는 2023년 7월 기준으로 LJSpeech 데이터셋을 활용한 음성합성에서 Audio Quality MOS(Mean Opinion Score) 2위(4.43)을 기록하고 있는 모델이다.<br>
+VITS는 2023년 7월 기준으로 [LJSpeech](https://keithito.com/LJ-Speech-Dataset/) 데이터셋을 활용한 음성합성에서 Audio Quality MOS(Mean Opinion Score) 2위(4.43)을 기록하고 있는 모델이다.<br>
 
 ![image](https://github.com/kosonkh7/RVC_Voice_Conversion/assets/83086978/3fcd3c17-ed1c-4d3a-ada7-f8633fb4ae3b)
 
