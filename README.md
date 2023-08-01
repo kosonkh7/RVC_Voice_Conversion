@@ -31,11 +31,23 @@ VITS는 2023년 7월 기준으로 LJSpeech 데이터셋을 활용한 음성합�
 
 ## Data Preprocessing
 
+![image](https://github.com/kosonkh7/RVC_Voice_Conversion/assets/83086978/7a973547-6ccf-4b44-89c2-0a8012f059a2)
 
+학습 데이터셋을 구성할 음성 데이터와, 레퍼런스가 될 음성 데이터는 모두 아래와 같은 방법으로 전처리해준다.
+전처리는 [Ultimate Vocal Remover](https://github.com/Anjok07/ultimatevocalremovergui) 을 활용하였고, 사용 방법은 링크 첨부한다.
+
+1. 원본 데이터(노래)에서 배경음악 분리 [전처리1](https://kosonkh7.tistory.com/167)
+2. 분리된 음성 데이터에서 코러스 추출 및 제거 [전처리2](https://kosonkh7.tistory.com/173)
+3. De-reberb 적용 (선택) [전처리3](https://kosonkh7.tistory.com/170)
+
+De-reberb 적용하면 데이터 품질이 떨어진다는 의견도 보았지만,
+경우에 따라선 De-reberb 적용해주어야 발음이 정확하게 잡히거나, 잡음이 주는 경향을 보였기에 잘 판단하면 좋을 것 같다.
+본인은 모델 학습 시 사용되는 데이터는 에코를 제거하지 않고,
+레퍼런스로 사용되는 데이터는 에코를 제거하는 방식으로 활용하였다.
+
+## Model Training
 
 ㅡ과정
-데이터셋 수집
-데이터셋 전처리
 모델 선정 (+ 피쳐 셀렉션 알고리즘 이해)
 모델 학습
 학습된 모델 분석
