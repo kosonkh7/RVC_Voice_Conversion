@@ -83,6 +83,8 @@ De-reberb 적용하면 데이터 품질이 떨어진다는 의견도 보았지�
 
 
 ![image](https://github.com/kosonkh7/RVC_Voice_Conversion/assets/83086978/e4ea3e27-363a-4a63-8fc5-31dd64e253f8)<br>
+![image](https://github.com/kosonkh7/RVC_Voice_Conversion/assets/83086978/27ae4bfb-b812-4ce0-b40a-280e8c5ae949)<br>
+
 
 ## Conclusion
 [가수 A - 첫눈처럼 너에게 가겠다](https://youtu.be/Wk77DKsDB4c)<br>
