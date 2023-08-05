@@ -25,8 +25,6 @@
 ## Model Selection
 음성합성(Text-to-Speech)분야에서 SOTA급 성능을 보이는 [VITS](https://github.com/jaywalnut310/vits) (Variational Inference with adversarial learning for end-to-end Text-to-Speech) 기반 [RVC](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI) (Retrieval-based-Voice-Conversion-WebUI) 프레임워크를 사용하였다.
 
-[![Open In Colab](https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&color=525252)](https://colab.research.google.com/drive/1iWOLYE9znqT6XE5Rw2iETE19ZlqpziLx?usp=sharing)
-
 VITS는 2023년 7월 기준으로 [LJSpeech](https://keithito.com/LJ-Speech-Dataset/) 데이터셋을 활용한 음성합성에서 Audio Quality MOS(Mean Opinion Score) 2위(4.43)을 기록하고 있다.<br>
 
 ![image](https://github.com/kosonkh7/RVC_Voice_Conversion/assets/83086978/3fcd3c17-ed1c-4d3a-ada7-f8633fb4ae3b)
@@ -71,11 +69,38 @@ De-reberb 적용하면 데이터 품질이 떨어진다는 의견도 보았지�
 
 ## Model Training
 
-ㅡ과정
-모델 선정 (+ 피쳐 셀렉션 알고리즘 이해)
-모델 학습
-학습된 모델 분석
+[![Open In Colab](https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&color=525252)](https://colab.research.google.com/drive/1iWOLYE9znqT6XE5Rw2iETE19ZlqpziLx?usp=sharing)<br>
+
+모델 학습 및 음성 변환 방법은 개인 블로그에 정리하여 포스팅 하였다. 아래 링크 첨부.<br>
+
+[[RVC Web UI 설치 및 실행 방법]](https://kosonkh7.tistory.com/166) <br>
+
+[[학습 및 음성 변환 가이드]](https://kosonkh7.tistory.com/168) <br>
+
+피치 추출 알고리즘(pitch extraction algorithm)으로는 [CREPE](https://arxiv.org/abs/1802.06182)(Convolutional Representation for Pitch Estimation)을 사용하였고,<br>
+
+500 에포크 학습하여 loss/d/total 이 가장 낮은 부근의 모델을 음성 변환에 활용하였다.<br>
+
+
+![image](https://github.com/kosonkh7/RVC_Voice_Conversion/assets/83086978/e4ea3e27-363a-4a63-8fc5-31dd64e253f8)<br>
+
+## Conclusion
+[가수 A - 첫눈처럼 너에게 가겠다](https://youtu.be/Wk77DKsDB4c)<br>
+
+[가수 B - 눈의 꽃](https://youtu.be/Bn3S86hrunk)<br>
+
+
+
+
 
 ㅡ마무리
 결과물 공유
 결론 및 느낀점
+
+## Reference
+
+[Mangio-RVC-Fork](https://github.com/Mangio621/Mangio-RVC-Fork)<br>
+
+[Ultimate Vocal Remover GUI](https://github.com/Anjok07/ultimatevocalremovergui)<br>
+
+[VITS](https://github.com/jaywalnut310/vits)<br>
