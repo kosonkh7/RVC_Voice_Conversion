@@ -115,7 +115,7 @@ De-reberb 적용하면 데이터 품질이 떨어진다는 의견도 보았지�
 
 본 프로젝트에서는 AI 기반 기술을 활용하여 데이터 전처리 하였는데,<br>
 
-미디(Musical Instrument Digital Interface)를 활용한 믹싱 기술이 병행된다면 보다 좋은 결과를 기대할 수 있을 것이다.<br>
+미디(Musical Instrument Digital Interface)를 활용한 믹싱 기술이 병행된다면(MR 분리, 노이즈 제거, 옥타브 변환 등) 보다 듣기 좋은 결과를 기대할 수 있을 것이다.<br>
 
 ## Reference
 
