@@ -92,6 +92,7 @@ De-reberb 적용하면 데이터 품질이 떨어진다는 의견도 보았지�
 
 
 ## Conclusion
+
 [가수 A모델 - 들리나요](https://youtu.be/NiTndFI5SGs)<br>
 
 [가수 A모델 - 첫눈처럼 너에게 가겠다](https://youtu.be/Wk77DKsDB4c)<br>
