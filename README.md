@@ -1,11 +1,11 @@
 # RVC_Voice_Conversion
-<font size = 10> [음성 변환 결과물 모음 링크](https://www.youtube.com/@ky-melody) </font>
 
+프로젝트 목표: **VITS 기반 음성 변환 프레임워크 RVC를 활용하여 듣기 좋은 AI 커버곡을 생성한다.** <br>
+
+<font size = 10> [음성 변환 결과물 모음 링크](https://www.youtube.com/@ky-melody) </font>
 <br>
 
 ## Project Overview
-**VITS 기반 음성 변환 프레임워크 RVC를 활용하여 듣기 좋은 AI 커버곡을 생성한다.** <br>
-
 
 음성 변환(Voice Conversion)이란, Source Speaker의 음성을 Target Speaker의 음성으로 변환하는 것이다.<br>
 
@@ -94,11 +94,11 @@ De-reberb 적용하면 데이터 품질이 떨어진다는 의견도 보았지�
 
 ## Conclusion
 
-[가수 A모델 - 들리나요](https://youtu.be/NiTndFI5SGs)<br>
+[가수 A모델 - 눈의 꽃](https://youtu.be/Bn3S86hrunk)<br>
 
-[가수 A모델 - 첫눈처럼 너에게 가겠다](https://youtu.be/Wk77DKsDB4c)<br>
+[가수 B모델 - 들리나요](https://youtu.be/NiTndFI5SGs)<br>
 
-[가수 B모델 - 눈의 꽃](https://youtu.be/Bn3S86hrunk)<br>
+[가수 B모델 - 첫눈처럼 너에게 가겠다](https://youtu.be/Wk77DKsDB4c)<br>
 
 결과물은 정량적인 평가보다는 정성적인 평가가 수반된다.<br>
 
