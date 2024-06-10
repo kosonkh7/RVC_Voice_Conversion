@@ -2,7 +2,7 @@
 
 프로젝트 목표: **VITS 기반 음성 변환 프레임워크 RVC를 활용하여 듣기 좋은 AI 커버곡을 생성한다.** <br>
 
-<font size = 10> [음성 변환 결과물 모음 링크](https://www.youtube.com/@ky-melody) </font>
+<font size = 10> [음성 변환 결과물(AI 커버곡) 모음 링크](https://www.youtube.com/@ky-melody) </font>
 <br>
 
 ## Project Overview
